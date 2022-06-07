@@ -6,7 +6,7 @@
 **Course Link:**\
 https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka
 
-## Initialise teh Airflow Database
+## Initialise the Airflow Database
 
 Start the `airflow-init` container:
 
@@ -19,7 +19,7 @@ This service will essentially run `airflow db init` and create the admin user fo
 ## Start Airflow services
 
 ```sh
-$ docker-compose up
+$ docker-compose -f docker-compose-airflow.yaml up
 ```
 
 ## Access Airflow UI
